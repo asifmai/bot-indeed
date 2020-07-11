@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1.text-center Indeed Bot
+  p.text-center Welcome to Indeed Bot
+  div.text-center
+    button#scrape.btn.btn-primary
+      span.scrape Scrape Indeed
+      span.scraping
+        i.fas.fa-spinner.fa-spin.mr-2
+        | Scraping
+  .card.mt-4
+    .card-header
+      h4 Results
+    .card-body
+      .results
